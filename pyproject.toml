@@ -1,0 +1,9 @@
+[project]
+name = "comfyui-audio-silence-trim"
+version = "0.1.0"
+description = "A small ComfyUI custom node for shortening long silent sections in AUDIO inputs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Yang Li" }]
+dependencies = ["numpy>=1.23"]
