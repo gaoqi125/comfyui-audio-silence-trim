@@ -2,6 +2,8 @@
 
 A small ComfyUI custom node that shortens long silent sections in `AUDIO` inputs while keeping a configurable portion of each detected silence.
 
+[![tests](https://github.com/gaoqi125/comfyui-audio-silence-trim/actions/workflows/tests.yml/badge.svg)](https://github.com/gaoqi125/comfyui-audio-silence-trim/actions/workflows/tests.yml)
+
 ## What It Does
 
 - Detects silence from the mean absolute waveform amplitude.
@@ -28,6 +30,10 @@ python3 -m unittest discover -s tests -v
 ```
 
 The tests use NumPy arrays and do not require a running ComfyUI instance.
+
+## Support and Security
+
+Use GitHub Issues for reproducible bugs and Discussions for usage questions. See [SECURITY.md](SECURITY.md) and [SUPPORT.md](SUPPORT.md) before sharing logs or sample media.
 
 ## Defaults
 
